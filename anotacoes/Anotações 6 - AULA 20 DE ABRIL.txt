@@ -1,0 +1,27 @@
+AULA 20/04
+
+//OUTROS COMANDOS DE LAÇO
+Além do conhecido "While" (Enquanto) existem outros laços conhecidos, dentre eles o "For" (para);
+Sua sintaxe é:
+
+for (início; condição v; atualiza) {
+    "Conteudo do codigo"
+}
+
+- Teste de início;
+- Melhor para laço contado;
+
+//LAÇO INFINITO
+É possível fazer com que um laço seja "infinito" (não tenha fim).
+Para isso, fazemos de jeitos específicos:
+
+1- While
+Para um While ser infinito, basta declará-lo como "true" (verdadeiro), desa forma ele nunca reconhecera um valor falso.
+Por extenso: "Enquano for verdadeiro: *operação do codigo*"
+
+while (true) {
+    "Conteudo do codigo";
+}
+
+2- For
+Para o For, basta deixá-lo "vazio"

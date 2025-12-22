@@ -1,0 +1,27 @@
+AULA 06/04
+
+//DECISÃO MÚLTIPLA
+O comando "Switch Case" é muito usado para tipos enumeráveis:
+- int
+- char
+
+Sua sintaxe:
+
+switch (expressão) {
+    case valor 1:
+        "tal coisa"
+        break;
+    case valor 2:
+        "outra coisa";
+        break;
+    case valor 3:
+        "mais uma coisa";
+        break;
+    default*;
+}
+
+*default: O default (ou padrão em português) é usado para caso o valor dado pelo usuário não seja igual a nenhuma das opções, o código
+não dar erro;
+
+Dentro do próprio Switch Case é possível usar outras variáveis como condicionais, leitores e laços de repetição;
+Também é possível estes outros "componentes" de um código para "incrementá-lo"; 

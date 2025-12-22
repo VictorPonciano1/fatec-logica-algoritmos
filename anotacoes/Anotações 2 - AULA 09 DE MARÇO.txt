@@ -1,0 +1,35 @@
+AULA 09/03
+
+//ENTRADA E SAÍDA DE DADOS - "JOptionPane":
+Para fazer a "importação" da classe "JOptionPane" é preciso usar a determinada sintaxe:
+
+import javax.swing.JOptionPane;
+
+A JOptionPane pode ser usada como uma forma de entrada e saída de dados;
+Sintaxe da Entrada de Dados:
+
+var*¹ = JOptionPane.showInputDialog(msg*);
+(Geralmente essa váriavel é uma String);
+
+Sintaxe de Saída de Dados:
+
+JOptionPane.showMessageDialog(null, msg*²);
+
+*¹: var = váriavel;
+*²: msg = message(mensagem), aquela que será exibida pela JOptionPane;
+
+//LER VALORES ESPECÍFICOS
+Para ler valores específicos nós podemos:
+> Converter a String recebida para o tipo desejado (parser);
+> Usar classes empacotadoras*³:
+int -> Integer
+double -> Double
+boolean -> Boolean
+
+*³: Classes Empacotadoras: são as famosas "Classes Wrapper";
+
+//CLASSE MATH
+Classe que contém constantes úteis e também funções matemáticas;
+Essa classe é pertencente do pacote: "java.lang";
+>Para a biblioteca "java.lang" não é preciso importá-la;
+

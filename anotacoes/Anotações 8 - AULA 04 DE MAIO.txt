@@ -1,0 +1,15 @@
+AULA 04/05
+
+//VETORES - ARRAYS - MATRIZES
+São variáveis compostas homogêneas;
+- Compostas: armazenam muitos valores;
+- Homogêneas: valores são todos do mesmo tipo;
+Nos Arrays as posições do indice começam em 0;
+
+Sintaxe:
+
+int i; //indice;
+i = 2; //valor = 2;
+int[] v; //v = vetor(mesma coisa que array);
+v = new int[4]; //vetor terá 4 posições;
+v[0] = 2; //na posição 0 o valor será de 2;

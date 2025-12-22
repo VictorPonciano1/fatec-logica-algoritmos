@@ -1,0 +1,15 @@
+AULA 27/04
+
+//OUTROS LAÇOS DE REPETIÇÃO
+O comando "do - while" executa um teste no "final" do laço;
+É usado para um laço contado ou com sentinela;
+Sua sintaxe se caracteriza em:
+
+inicializar o contador/condição antes (opicional) 
+comando "do" {
+
+    "Instruções";
+    "Atualizar/inicializar o contador/condiçaão";
+}
+
+Ao fazer um teste "no final", as instruções sempre são realizadas pelo menos umas vez

@@ -1,0 +1,60 @@
+AULA 16/03
+
+//CONDICIONAIS
+Como o próprio nome sugere, as condicionais nos permitem trabalhar com condições, executando um teste:
+
+teste (condição) ----> V ou F ---> [algo acontece] ---> Fim do código (saída)
+
+O teste é uma expressao booleana (tem como resultado: verdadeiro (V) ou falso (F)).
+
+Para executar esses teste condicionais, temos novos operadores a serem utilizados.
+
+//OPERADORES CONDICIONAIS
+Para usar "condições, temos os famoso operadores "if e else" (se e senão), um exemplo de sua sintaxe:
+
+if (condição v) {
+    intruções caso verdadeiro;
+} else {
+    instruções caso falso;
+}
+
+Obeservações:
+1- Nem sempre temos else;
+2- O else NÃO (NUNCA) "pergunta" algo a condição;
+3- Os blocos if e else são separados (um bloco é representado pelo abrir e fechar das chaves: { bloco });
+4- Caso tenhamos mais que 2 possibilidades, precisamos "combinar" comandos if e else;
+
+//OPERADORES RELACIONAIS
+Estes operadores são responsáveis por executar comparações entre "dois valores", os dois operando devem ser do mesmo tipo (os dois
+do tipo String ou os dois do tipo Int).
+De operadores relacionais temos:
+> : Maior que;
+>= : Maior ou igual que;
+< : Menor que;
+<= : Menor ou igual que;
+== : Igual;*
+
+*: Quando o sinal de igual está "sozinho" como "=" na programação, ele é usado para atribuir um valor a uma variável, para indicar
+de forma matemática que uma variável equivale a um número, deve-se utilizar "==";
+
+//OPERADORES LÓGICOS
+Utilizados para "analisar" condições, eles são operadores usados principalmente com valores lógicos (0 e 1).
+Esses operadores são:
+&& : E;
+|| : OU;
+! : NÃO;
+
+//PRIORIDADES
+As "prioridades" representam a "ordem" em que devem ser feitas as condições:
+1- Negação;
+2- Conjunção (e);
+3- Disjunção (ou);
+
+//LEITURA DE CARACTERES
+- Um caracter é qualquer símbolo do teclado;
+- Uma String é uma sequência de caracteres;
+- Não temos um método específico para leitura de caracteres, a forma de fazermos isso é lermos uma String e capturarmos a 1ª letra;
+- A sequência de caracteres é um vetor: [0, 1 , 2 3 , 4 ,5 , ...]
+- O método para capturar uma letra de uma String é "charfit" (posição);
+- A primeira letra está na posição 0;
+- O método lenght() te dá o tamanho do String;

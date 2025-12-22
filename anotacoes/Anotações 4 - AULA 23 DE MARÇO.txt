@@ -1,0 +1,64 @@
+Aula 23/03
+
+//SIMPLES
+Entrada --> Processamento --> Saída
+
+//DECISÃO SIMPLES
+Entrada --> Teste Lógico --> V (verdadeiro) OU F (falso) --> Instruções caso verdadeiro ou Intruções caso Falso --> Saída
+
+//DECISÃO COMPLETA
+Entrada --> Teste 1 --> V OU F --> Instruções Caso T1 = V --> Saída
+                                   Teste 2 --> V OU F --> Intruções Caso T2 = verdadeiro --> Saída
+
+//LAÇOS DE REPETIÇÃO
+Entrada --> Teste -- V ou F --> Caso Teste = V --> Repetir instruções                
+                                Caso Teste = F --> Saída
+Todo Laço tem:
+1- Iníco
+2- Fim
+3- Passo
+
+//ACUMULADORES
+Para fazer laços, usamos os "Acumuladores", eles são feitos com a seguinte Sintaxe:
+
+var = var operador expressão
+a = a + 1; ou a++ (++ = incremento);
+b = b - 1; ou b-- (-- = decremento);
+c = c * 10;
+x = x / 5;
+y = y + (a * b);
+String = String + "palavra"; (concatenação = é apenas adicionado para fazer parte da expressão. Ex: 1 + 1 = 11 concatenando);
+
+Os Laços podem ser:
+1- Contados: sabemos quantas vezes será executado;
+2- Por Sentinela: não sabemos o número de repetições que serão executadas;
+
+//TESTES DE CONTINUIDADE
+Os testes de continuidade podem ser realizados no:
+INÍCIO: as instruções podem não ser realizadas;
+FIM: as instruções são realizadas pelo menos uma vez;
+
+Em Java, temos 3 comandos:
+1- Teste;
+2- Início: While e For (For é melhor para um "Laço Contado"); 
+3- Fim: Do while*¹ (Do e While são melhores para "Laços Sentinela");
+
+*¹: Do whilhe = "Faça enquanto";
+
+//WHILE (ENQUANTO)
+Exemplo de uma sintaxe em que se usa o While (Enquanto):
+
+Em algum lugar antes 
+inicia o contador ou condição //Início
+while (teste verdadeiro) { //Fim
+    instruções que se repetem //Passo
+    atualiza o contador
+}
+
+//VALORES RANDÔMICOS (PSEUDO ALEATÓRIOS)
+Em Java, temos duas classes com métodos geradores:
+1- Math: método random() [0, 1);
+2- Random: método nextInt(): vai de -2³¹ até 2³¹ - 1
+                  nextDouble(): [0, 1)
+                  nextBoolean(): T/F (True ou Fals - Verdadeira ou Falso);
+                  entre outros;

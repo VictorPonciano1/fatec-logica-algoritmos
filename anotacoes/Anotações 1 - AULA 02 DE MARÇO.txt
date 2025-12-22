@@ -1,0 +1,25 @@
+AULA 02/03
+
+// VARIÁVEIS:
+Variáveis simples são declaradas:
+
+	int i;
+	double d;
+
+Objetos são declarados e instanciados (construídos), ou seja, 
+invocamos o seu "construtor".
+
+//SOBRE O SCANNER:
+Antes de tudo, a classe "Scanner" deve ser "importada", para isso usamos a sintaxe:
+
+import java.util.Scanner;
+
+Para o Scanner (uma classe para entrada de dados) temos:
+
+Scanner sc = new Scanner(System.in); 
+*Nota: System é uma classe, sendo "in" um input para a "Entrada
+Padrão do Sistema";
+
+Todo objeto Scanner deve ser "liberado":
+
+sc.close();

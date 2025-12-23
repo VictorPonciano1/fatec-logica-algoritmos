@@ -1,0 +1,17 @@
+/* EXERCÍCIO 2: Sabendo que A = 3, B = 7 e C = 4, informe se as expressões abaixo são verdadeiras ou falsas */
+OBS: provavlemente farei isso como forma de algoritmo em algum momento, porém nao agora;
+
+a) (A + C) > B
+R: Falso - (3 + 4) > 7
+
+b) B >= (A + 2)
+R: Verdadeiro - 7 >= (3 + 2)
+
+c) C == (B - A)
+R: Verdadeiro - 4 == (7 - 3)
+
+d) (B + A) <= C
+R: Verdadeiro - (7 + 3) <= 4
+
+e) (C + A) > B
+R: Falso - (4 + 3) > 7

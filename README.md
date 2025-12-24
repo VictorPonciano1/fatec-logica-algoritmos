@@ -41,3 +41,8 @@ Para testar ou executar os exercícios:
 4. Execute a classe principal (main) conforme o enunciado do exercício.
 
 > 💻 Certifique-se de estar usando uma versão adequada do Java (por exemplo, Java 17 ou superior), se aplicável.
+
+---
+
+## 📄 Licença
+Este repositório está licenciado sob a licença **MIT** — veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
